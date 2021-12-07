@@ -316,7 +316,7 @@ int divNum()
 int main()
 {
     int choice;
-    int points = 0;
+    int points = -1;
     do{
 
     points++;
