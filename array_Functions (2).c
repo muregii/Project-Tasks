@@ -90,6 +90,8 @@ int standardDev(int x, int num[])
 
 int main()
 {
+        int d;
+        do{
         Displaymenu();
         int choice,x,avg;
         printf("\n Select your option:");
@@ -134,5 +136,9 @@ int main()
             exit(0);
         }
 
+        printf("\n Do you wish to continue? \n 1. YES \n 2. NO\n\t");
+        scanf("%d",&d);
+
+        }while(d==1);
 
 }
