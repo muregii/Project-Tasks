@@ -30,7 +30,7 @@ int main()
     scanf("%d",&d);
 
 
-}while(d!=1);
+}while(d==1);
 
 
 }
