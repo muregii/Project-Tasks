@@ -49,13 +49,16 @@ int main()
     {
 
         fprintf(fptointer,
-        "\n************************ \nBOOK DETAILS \n************************\n%s \n%s \nKsh.%d\n",details.bookTitle,details.author,details.price);
+        "\n************************ \nBOOK DETAILS \n************************\n%s \n%s \nKsh.%d \nQty%d\n",details.bookTitle,details.author,details.price,j);
+
         printf("\nData saved successfully\n");
     }
 
     fclose(read);
 
 }
+
+
 
 
 
